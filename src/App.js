@@ -8,7 +8,7 @@ function App() {
       <div>
       <Navbar bg="light" expand="lg">
   <Container fluid>
-    <Navbar.Brand href="#">Events with maryem</Navbar.Brand>
+    <Navbar.Brand href="#">Eventica</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
       <Nav
@@ -16,9 +16,9 @@ function App() {
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-        <Nav.Link href="#action1">Home</Nav.Link>
-        <Nav.Link href="#action2">Link</Nav.Link>
-        <NavDropdown title="Link" id="navbarScrollingDropdown">
+        <Nav.Link href="#action1">events</Nav.Link>
+        <Nav.Link href="#action2">home</Nav.Link>
+        <NavDropdown title="" id="navbarScrollingDropdown">
           <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
           <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
           <NavDropdown.Divider />
@@ -27,7 +27,7 @@ function App() {
           </NavDropdown.Item>
         </NavDropdown>
         <Nav.Link href="#" disabled>
-          Link
+          about us
         </Nav.Link>
       </Nav>
       <Form className="d-flex">
@@ -43,6 +43,18 @@ function App() {
   </Container>
 </Navbar>
 
+
+      </div>
+      <div>
+        
+      
+  <Button variant="primary">Primary</Button>{' '}
+  <Button variant="secondary">Secondary</Button>{' '}
+  <Button variant="success">Success</Button>{' '}
+  <Button variant="warning">Warning</Button>{' '}
+  <Button variant="danger">Danger</Button> <Button variant="info">Info</Button>{' '}
+  <Button variant="light">Light</Button> <Button variant="dark">Dark</Button>{' '}
+  <Button variant="link">Link</Button>
 
       </div>
       <div>
